@@ -1,4 +1,12 @@
 # AI5WINScriptTool
+
+## 中文
+
+根据我的实际解包结果，mes文件解包获得的txt文件中的system text里的文本内容无论用什么编码都不能正常显示，
+因此尝试参考AI6WINScriptTool里的某一篇issue修改源文件。
+
+原作者的setup.py似乎没什么用？
+
 ## English
  Dual languaged (rus+eng) tool for decompiling and compiling scripts .mes from the visual novel's engine AI5WIN. Very incomplete list of games on this engine you can find [on vndb](https://vndb.org/r?q=&o=a&s=title&f=fwAI5WIN-). With it thou can fully edit all the code, not just strings. Thou can add message breaks and change scenarios without restrictions!
  Mes script files can be used not just in AI5WIN, but also in AI6WIN and Silky Engine. For assembling and disassembling mes script files of AI6WIN use [AI6WINScriptTool](https://github.com/TesterTesterov/AI6WINScriptTool), for mes of Silky Engine use [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler).
